@@ -4,8 +4,6 @@
 
 - The GCloud CLI ([here](https://cloud.google.com/sdk/docs)).
 
-
-
 ## Files
 
 This repository manages the following files.
@@ -23,5 +21,5 @@ To modify the mapping one needs to re-deploy the file (see command below).
 
 - Reauthenticate : `gcloud auth revoke` and then `gcloud auth login`
 
-- Deploy dispath file (:warning: Ensure you set the CLI to the appropriate project !!): `gcloud app deploy dispatch.yaml`
+- Deploy dispatch file (:warning: Ensure you set the CLI to the appropriate project !!): `gcloud app deploy dispatch.yaml`
 
