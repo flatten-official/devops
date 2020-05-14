@@ -1,0 +1,7 @@
+dispatch:
+  - url: "api.staging.flatten.ca/*"
+    service: backend-staging
+  - url: "staging.flatten.ca/*"
+    service: default
+  - url: "map.staging.flatten.ca/*"
+    service: map-staging
