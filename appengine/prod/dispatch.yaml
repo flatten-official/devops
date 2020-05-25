@@ -5,7 +5,7 @@ dispatch:
     service: default
   - url: "flatten.org/*"
     service: default
-  - url: "api.flatten.so/*"
+  - url: "api.flatten.org/*"
     service: backend-so
   - url: "m.flatten.ca/*"
     service: variant

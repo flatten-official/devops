@@ -5,5 +5,5 @@ dispatch:
     service: default
   - url: "map.staging.flatten.ca/*"
     service: map-staging
-  - url: "api.staging.flatten.so/*"
+  - url: "api.staging.flatten.org/*"
     service: backend-so-staging
